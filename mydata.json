@@ -1,0 +1,330 @@
+[
+{
+    "model": "main.category",
+    "pk": 1,
+    "fields": {
+        "title": "\u0417\u0430\u043a\u0443\u0441\u043a\u0438",
+        "category_order": 1,
+        "visible_flag": true
+    }
+},
+{
+    "model": "main.category",
+    "pk": 2,
+    "fields": {
+        "title": "\u0421\u0430\u043b\u0430\u0442\u044b",
+        "category_order": 2,
+        "visible_flag": true
+    }
+},
+{
+    "model": "main.category",
+    "pk": 3,
+    "fields": {
+        "title": "\u0421\u0443\u043f\u044b",
+        "category_order": 3,
+        "visible_flag": true
+    }
+},
+{
+    "model": "main.category",
+    "pk": 4,
+    "fields": {
+        "title": "\u041e\u0441\u043d\u043e\u0432\u043d\u044b\u0435 \u0431\u043b\u044e\u0434\u0430",
+        "category_order": 4,
+        "visible_flag": true
+    }
+},
+{
+    "model": "main.category",
+    "pk": 5,
+    "fields": {
+        "title": "\u0413\u0430\u0440\u043d\u0438\u0440\u044b",
+        "category_order": 5,
+        "visible_flag": true
+    }
+},
+{
+    "model": "main.category",
+    "pk": 6,
+    "fields": {
+        "title": "\u0414\u0435\u0441\u0435\u0440\u0442\u044b",
+        "category_order": 6,
+        "visible_flag": true
+    }
+},
+{
+    "model": "main.category",
+    "pk": 7,
+    "fields": {
+        "title": "\u0411\u0430\u0440",
+        "category_order": 7,
+        "visible_flag": true
+    }
+},
+{
+    "model": "main.category",
+    "pk": 8,
+    "fields": {
+        "title": "\u0421\u0435\u0437\u043e\u043d\u043d\u043e\u0435 \u043c\u0435\u043d\u044e",
+        "category_order": 0,
+        "visible_flag": false
+    }
+},
+{
+    "model": "main.dish",
+    "pk": 1,
+    "fields": {
+        "title": "\u041d\u0430\u043f\u043e\u043b\u0435\u043e\u043d",
+        "price": "85.00",
+        "photo": "images/dishes/e7274d00-5194-423d-9454-90cd8a3ca65b.jpg",
+        "description": "\u0412\u043a\u0443\u0441\u043d\u044b\u0439 \u0434\u0435\u0441\u0435\u0440\u0442 \u0440\u043e\u0434\u043e\u043c \u0438\u0437 \u0434\u0435\u0442\u0441\u0442\u0432\u0430",
+        "category": 6
+    }
+},
+{
+    "model": "main.dish",
+    "pk": 2,
+    "fields": {
+        "title": "\u041e\u0432\u043e\u0449\u0438 \u043d\u0430 \u0433\u0440\u0438\u043b\u0435",
+        "price": "100.00",
+        "photo": "images/dishes/36c1d37a-534e-4769-b2cf-e54b6633c24e.jpg",
+        "description": "\u0411\u0430\u043a\u043b\u0430\u0436\u0430\u043d\u044b, \u0411\u043e\u043b\u0433\u0430\u0440\u0441\u043a\u0438\u0439 \u043f\u0435\u0440\u0435\u0446, \u041b\u0443\u043a, \u041a\u0443\u043a\u0443\u0440\u0443\u0437\u0430, \u041f\u043e\u043c\u0438\u0434\u043e\u0440\u044b \u0447\u0435\u0440\u0440\u0438",
+        "category": 4
+    }
+},
+{
+    "model": "main.dish",
+    "pk": 3,
+    "fields": {
+        "title": "\u041f\u0430\u0441\u0442\u0430 \u041a\u043e\u0440\u0431\u0430\u043d\u0430\u0440\u0430",
+        "price": "95.00",
+        "photo": "images/dishes/1c681444-6ef4-499e-8fa4-380c7a40dc2a.jpg",
+        "description": "\u0412\u043a\u0443\u0441\u043d\u043e\u0435 \u0431\u043b\u044e\u0434\u043e",
+        "category": 4
+    }
+},
+{
+    "model": "main.dish",
+    "pk": 4,
+    "fields": {
+        "title": "\u0418\u0442\u0430\u043b\u044c\u044f\u043d\u0441\u043a\u0430\u044f \u043f\u0438\u0446\u0446\u0430",
+        "price": "78.00",
+        "photo": "images/dishes/5efb0ddf-ea8f-4d68-8725-a9c45f9469c4.jpg",
+        "description": "\u041b\u0443\u0447\u0448\u0430\u044f \u0438\u0442\u0430\u043b\u044c\u044f\u043d\u0441\u043a\u0430\u044f \u043f\u0438\u0446\u0446\u0430",
+        "category": 8
+    }
+},
+{
+    "model": "main.dish",
+    "pk": 5,
+    "fields": {
+        "title": "\u0420\u0443\u043b\u0435\u0442",
+        "price": "65.00",
+        "photo": "images/dishes/23d20ec4-ceba-47a9-be4e-bc32dfc6efc1.jpg",
+        "description": "\u041e\u0432\u043e\u0449\u043d\u043e\u0439 \u0440\u0443\u043b\u0435\u0442",
+        "category": 8
+    }
+},
+{
+    "model": "main.dish",
+    "pk": 6,
+    "fields": {
+        "title": "\u041a\u0440\u0443\u0442\u043e\u043d\u044b",
+        "price": "120.00",
+        "photo": "images/dishes/99216b61-00f2-478c-8d51-4a40df7936f9.jpg",
+        "description": "\u041a\u0430\u0440\u0442\u043e\u0444\u0435\u043b\u044c\u043d\u044b\u0435 \u043a\u0440\u0443\u0442\u043e\u043d\u044b",
+        "category": 8
+    }
+},
+{
+    "model": "main.gallery",
+    "pk": 1,
+    "fields": {
+        "photo": "images/gallery/f09cdf76-5ad7-46bb-860d-6e753b9655ed.jpg",
+        "description": "\u041e\u0441\u043d\u043e\u0432\u043d\u043e\u0439 \u0437\u0430\u043b",
+        "visible_flag": true
+    }
+},
+{
+    "model": "main.gallery",
+    "pk": 2,
+    "fields": {
+        "photo": "images/gallery/51f0e003-c4f7-4f1e-9705-d1215037daac.jpg",
+        "description": "\u041e\u0441\u043d\u043e\u0432\u043d\u043e\u0439 \u0437\u0430\u043b",
+        "visible_flag": true
+    }
+},
+{
+    "model": "main.gallery",
+    "pk": 3,
+    "fields": {
+        "photo": "images/gallery/6d0b2a8d-ca37-435b-8eac-df5a14114d55.jpg",
+        "description": "\u0414\u0435\u0441\u0435\u0440\u0442",
+        "visible_flag": true
+    }
+},
+{
+    "model": "main.gallery",
+    "pk": 4,
+    "fields": {
+        "photo": "images/gallery/cd44adea-ebbd-430f-91ab-1530fb831fce.jpg",
+        "description": "\u0414\u0435\u0441\u0435\u0440\u0442",
+        "visible_flag": true
+    }
+},
+{
+    "model": "main.gallery",
+    "pk": 5,
+    "fields": {
+        "photo": "images/gallery/353fa8e7-ceee-4d2b-a9e8-c0fdbb9ccf1a.jpg",
+        "description": "\u0411\u0430\u0440",
+        "visible_flag": true
+    }
+},
+{
+    "model": "main.gallery",
+    "pk": 6,
+    "fields": {
+        "photo": "images/gallery/bbc52a63-2bca-4357-b2e9-8d8656ee0c62.jpg",
+        "description": "\u0411\u0430\u0440",
+        "visible_flag": true
+    }
+},
+{
+    "model": "main.gallery",
+    "pk": 7,
+    "fields": {
+        "photo": "images/gallery/df4fd2e8-0340-4b05-93c0-2908bbdeac4c.jpg",
+        "description": "\u0412\u0435\u0447\u0435\u0440",
+        "visible_flag": true
+    }
+},
+{
+    "model": "main.gallery",
+    "pk": 8,
+    "fields": {
+        "photo": "images/gallery/dc143e95-081b-4bad-bf4f-465ac1257a62.jpg",
+        "description": "\u0422\u0435\u0440\u0430\u0441\u0441\u0430",
+        "visible_flag": true
+    }
+},
+{
+    "model": "main.gallery",
+    "pk": 9,
+    "fields": {
+        "photo": "images/gallery/e295ce93-6235-43d4-a9db-0d537a5f9753.jpg",
+        "description": "\u041c\u0435\u043d\u044e",
+        "visible_flag": true
+    }
+},
+{
+    "model": "main.gallery",
+    "pk": 10,
+    "fields": {
+        "photo": "images/gallery/65952e29-5dbb-432e-8c77-6262930cc099.jpg",
+        "description": "\u041c\u0435\u043d\u044e",
+        "visible_flag": true
+    }
+},
+{
+    "model": "main.gallery",
+    "pk": 11,
+    "fields": {
+        "photo": "images/gallery/d60575ee-122f-42fd-a16f-a2ec1a2d5788.jpg",
+        "description": "\u041c\u0435\u043d\u044e",
+        "visible_flag": true
+    }
+},
+{
+    "model": "main.contacts",
+    "pk": 1,
+    "fields": {
+        "address": "Joulupukin kammari, 96930 Napapiiri, Rovaniemi, Finland",
+        "phone": "+38 (050) 000-000-1",
+        "email": "support@foodfunday.com"
+    }
+},
+{
+    "model": "main.schedule",
+    "pk": 1,
+    "fields": {
+        "day": "\u043f\u043d",
+        "start": "10:00:00",
+        "end": "22:00:00"
+    }
+},
+{
+    "model": "main.schedule",
+    "pk": 2,
+    "fields": {
+        "day": "\u0432\u0442",
+        "start": "10:00:00",
+        "end": "23:00:00"
+    }
+},
+{
+    "model": "main.schedule",
+    "pk": 3,
+    "fields": {
+        "day": "\u0441\u0440",
+        "start": "10:00:00",
+        "end": "23:00:00"
+    }
+},
+{
+    "model": "main.schedule",
+    "pk": 4,
+    "fields": {
+        "day": "\u0447\u0442",
+        "start": "10:00:00",
+        "end": "23:00:00"
+    }
+},
+{
+    "model": "main.schedule",
+    "pk": 5,
+    "fields": {
+        "day": "\u043f\u0442",
+        "start": "10:00:00",
+        "end": "02:00:00"
+    }
+},
+{
+    "model": "main.schedule",
+    "pk": 6,
+    "fields": {
+        "day": "\u0441\u0431",
+        "start": "10:00:00",
+        "end": "02:00:00"
+    }
+},
+{
+    "model": "main.schedule",
+    "pk": 7,
+    "fields": {
+        "day": "\u0432\u0441",
+        "start": "10:00:00",
+        "end": "22:00:00"
+    }
+},
+{
+    "model": "main.banner",
+    "pk": 1,
+    "fields": {
+        "title": "\u0414\u043b\u044f \u0442\u0435\u0431\u044f \u0438",
+        "slogan": "\u0410\u043f\u043f\u0435\u0442\u0438\u0442\u043d\u043e \u0438 \u0431\u044b\u0441\u0442\u0440\u043e",
+        "words": "\u0421\u0435\u043c\u044c\u0438:\u0414\u0440\u0443\u0437\u0435\u0439:\u041a\u043e\u043b\u043b\u0435\u0433",
+        "text": "\u0423\u043d\u0438\u043a\u0430\u043b\u044c\u043d\u044b\u0439 \u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d \u0441 \u043a\u0440\u0430\u0444\u0442\u043e\u0432\u044b\u043c \u043f\u0438\u0432\u043e\u043c, \u0441\u043f\u043e\u0440\u0442\u0438\u0432\u043d\u043e\u0439 \u0430\u0442\u043c\u043e\u0441\u0444\u0435\u0440\u043e\u0439 \u0438 \u0442\u0432\u043e\u0440\u0447\u0435\u0441\u043a\u043e\u0439 \u0434\u0443\u0448\u043e\u0439"
+    }
+},
+{
+    "model": "main.about",
+    "pk": 1,
+    "fields": {
+        "text": "\u0417\u0434\u0435\u0441\u044c \u0432 \u043d\u043e\u043d-\u0441\u0442\u043e\u043f \u0444\u043e\u0440\u043c\u0430\u0442\u0435 \u0432\u0430\u0440\u044f\u0442 4 \u0441\u043e\u0440\u0442\u0430 \u043f\u0435\u043d\u043d\u043e\u0433\u043e \u043d\u0430\u043f\u0438\u0442\u043a\u0430, \u044d\u0442\u0430\u043b\u043e\u043d\u043d\u044b\u0435 \u0432 \u0441\u0442\u0440\u0430\u043d\u0430\u0445 \u0415\u0432\u0440\u043e\u043f\u044b, \u0433\u0434\u0435 \u0442\u0440\u0430\u0434\u0438\u0446\u0438\u044f\u043c \u043f\u0438\u0432\u043e\u0432\u0430\u0440\u0435\u043d\u0438\u044f \u2013 \u0443\u0436\u0435 \u043d\u0435 \u043e\u0434\u043d\u0430 \u0441\u043e\u0442\u043d\u044f \u043b\u0435\u0442. \u041d\u0430\u0448\u0438 \u0433\u043e\u0441\u0442\u0438 \u043d\u0430 \u043f\u0440\u043e\u0442\u044f\u0436\u0435\u043d\u0438\u0438 \u043c\u043d\u043e\u0433\u0438\u0445 \u043b\u0435\u0442 \u0441\u043e\u0431\u0438\u0440\u0430\u044e\u0442\u0441\u044f \u0437\u0434\u0435\u0441\u044c, \u0432 \u043f\u0440\u043e\u0441\u0442\u043e\u0440\u043d\u044b\u0445 \u0437\u0430\u043b\u0430\u0445, \u043e\u0446\u0435\u043d\u0438\u0432\u0430\u044f \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u043e \u043d\u0430\u0448\u0438\u0445 \u043f\u0438\u0432\u043e\u0432\u0430\u0440\u043e\u0432, \u0431\u043e\u043b\u0435\u044e\u0442 \u0437\u0430 \u043b\u044e\u0431\u0438\u043c\u044b\u0435 \u043a\u043b\u0443\u0431\u044b, \u0437\u0430\u0440\u044f\u0436\u0430\u044e\u0442\u0441\u044f \u0432\u044b\u0441\u0442\u0443\u043f\u043b\u0435\u043d\u0438\u044f\u043c\u0438 \u043f\u043e\u043f\u0443\u043b\u044f\u0440\u043d\u044b\u0445 \u0431\u044d\u043d\u0434\u043e\u0432.",
+        "photo_1": "images/about/cedf4196-c1fb-44fe-9745-7937ff03a5e0.jpg",
+        "photo_2": "images/about/ef44cfdb-e1d0-4406-83ba-0b42c3bc3abb.jpg"
+    }
+}
+]
